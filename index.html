@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+
+    <title>GifTastic</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link rel="icon" type="favicon.ico" href="assets/images/favicon06.png"/>
+</head>
+<body>
+        
+    <div class="container">
+        <h2>GifTastic: Cartoon Protagonists</h2>
+        <h6>Click on any name below to find some GIFs of our favorite lead cartoon characters!</h6>
+        <h6>Add your own favorites to this list using the search bar.</h6>
+        <h6>Delete any name from the list by double-clicking it.</h6>
+           
+
+        <div class = "row">
+            <div class="buttons-view"></div>
+        </div>
+        
+        <div class = "row">
+            <div class="col-lg-9 container-fluid">
+                <div id="nameList"></div>
+            </div>
+
+            <div class="col-lg-3">
+                <form id="characterForm">
+                    <br>
+                <label for="newChar">Add a Character Here!</label>
+                <input type="text" class="form-control col-12" id="newChar"><br>
+                <input class="btn btn-warning" id="addCharacter" type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assets/javascript/app.js"></script>
+</body>
+</html>

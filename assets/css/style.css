@@ -1,0 +1,52 @@
+body {
+    background-image: url("../images/black-patterns-4.png");
+    font-family: 'Roboto Slab', serif;
+    color: white;
+}
+
+.character {
+    margin: 10px;
+   }
+
+.buttons-view {
+    border-radius: 5px;
+    border: 3px solid #616115;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+h2 {
+    letter-spacing: 5px;
+    text-align: center;
+    color:whitesmoke;
+}
+
+h6 {
+    font-weight: bold;
+    color: #f6ffa3;
+}
+
+.character {
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.characterName {
+    margin: 20px;
+    float: left;
+}
+
+p {
+    color:papayawhip;
+    margin-top: 20px;
+    line-height: 16px;
+}
+
+img {
+    border-radius: 20px;
+    margin-top: 2px;
+}
+
+/* label[for=newChar] {
+    text-align: right;
+} */
